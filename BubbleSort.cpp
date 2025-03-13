@@ -14,7 +14,7 @@ void input() {    //Prosedur input
             break;
         }
         else {
-            cout << "\nArray maksimal 20 elemen.\n";
+            cout << "\nArray maksimal 10 elemen.\n";
         }
     }
     cout << endl;
@@ -46,7 +46,7 @@ void bubbleSortArray(){
 void display(){
     cout << endl;
     cout <<"=================================" << endl;
-    cout <<"Element ARray yang telah tersusun" << endl;
+    cout <<"Element Array yang telah tersusun" << endl;
     cout <<"=================================" << endl;
     cout << endl;
     for (int j=0;j<n;j++){
